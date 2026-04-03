@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t-cr-1",
+    "name": "Review runner.ts",
+    "instruction": "Review the file packages/server/src/core/runner.ts. Focus on error handling and edge cases.",
+    "expectedOutput": null,
+    "harnessId": "h-code-reviewer"
+  },
+  {
+    "id": "t-cr-2",
+    "name": "Review scaffold.ts",
+    "instruction": "Review packages/server/src/core/scaffold.ts. Are there any issues with the shell command execution or file operations?",
+    "expectedOutput": null,
+    "harnessId": "h-code-reviewer"
+  },
+  {
+    "id": "t-cr-3",
+    "name": "Security check",
+    "instruction": "Check packages/server/src/routes/harness.ts for any security concerns around file operations or input validation.",
+    "expectedOutput": null,
+    "harnessId": "h-code-reviewer"
+  }
+]

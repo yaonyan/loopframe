@@ -1,0 +1,15 @@
+{
+  "id": "h-1775200416182",
+  "name": "New Harness",
+  "domain": "general",
+  "description": "",
+  "systemPrompt": "",
+  "tools": [],
+  "constraints": [],
+  "tags": [],
+  "color": "#22c55e",
+  "createdAt": "2026-04-03T07:13:36.191Z",
+  "updatedAt": "2026-04-03T07:13:36.191Z",
+  "version": 1,
+  "evolveCount": 0
+}

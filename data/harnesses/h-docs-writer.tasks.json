@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t-dw-1",
+    "name": "Document runAgent",
+    "instruction": "Read packages/server/src/core/agent.ts and write a markdown documentation section for the runAgent function.",
+    "expectedOutput": "RunAgentOptions",
+    "harnessId": "h-docs-writer"
+  },
+  {
+    "id": "t-dw-2",
+    "name": "Document scaffold assertions",
+    "instruction": "Read packages/server/src/core/scaffold.ts and document the evalAssertions function with a usage example.",
+    "expectedOutput": "AssertionResult",
+    "harnessId": "h-docs-writer"
+  },
+  {
+    "id": "t-dw-3",
+    "name": "Summarize shared types",
+    "instruction": "Read packages/shared/src/index.ts and write a brief overview of the main data models (Harness, Task, TaskResult, RegulatorMemory).",
+    "expectedOutput": "Harness",
+    "harnessId": "h-docs-writer"
+  }
+]

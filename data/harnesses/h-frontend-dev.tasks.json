@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t-fe-1",
+    "name": "Explain a component",
+    "instruction": "Read the file packages/client/src/components/Layout.tsx and explain what it does in 2-3 sentences.",
+    "expectedOutput": "sidebar",
+    "harnessId": "h-frontend-dev"
+  },
+  {
+    "id": "t-fe-2",
+    "name": "Count hooks",
+    "instruction": "Look at packages/client/src/pages/EvolvePage.tsx and tell me how many useState calls it contains. Return only the number.",
+    "expectedOutput": null,
+    "harnessId": "h-frontend-dev"
+  },
+  {
+    "id": "t-fe-3",
+    "name": "Identify the router",
+    "instruction": "Look at packages/client/src/App.tsx and tell me which routing library is used.",
+    "expectedOutput": "react-router",
+    "harnessId": "h-frontend-dev"
+  }
+]

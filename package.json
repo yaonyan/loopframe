@@ -1,0 +1,14 @@
+{
+  "name": "loopframe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n server,client -c green,cyan \"pnpm --filter @loopframe/server dev\" \"pnpm --filter @loopframe/client dev\"",
+    "build": "pnpm --filter @loopframe/shared build && pnpm --filter @loopframe/server build && pnpm --filter @loopframe/client build",
+    "start": "pnpm --filter @loopframe/server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "typescript": "^5.7.0"
+  }
+}

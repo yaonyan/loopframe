@@ -1,0 +1,12 @@
+{
+  "harness_id": "h-frontend-dev",
+  "total_actuations": 0,
+  "last_regulated_at": "2026-04-03T12:36:11.314Z",
+  "actuation_log": [],
+  "attenuated_signals": [],
+  "stable_states": [
+    "t-fe-1",
+    "t-fe-2",
+    "t-fe-3"
+  ]
+}
